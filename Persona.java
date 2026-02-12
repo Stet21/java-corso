@@ -1,11 +1,33 @@
 public class Persona {
 
-    String nome = "Stefano";
-    String cognome= "Melchiorre Ricci";
-    int eta = 34;
-    double altezza = 1.82;
+    String nome;
+    String cognome;
+
+    /* questo è un metodo costruttore che ci permette di creare in questo caso una persona
+    dobbiamo mettere anche i paramentri che ogni volta creiamo una persona */
+    /* il this. è come se richiamassero se stessa e quindi la classe dove si trovano */
+     Persona(String nome, String cognome){
+
+         this.nome = nome;
+        this.cognome = cognome;
+
+    }
+    public String toString(){
+
+          String stringa = this.nome + " " + this.cognome;
+          return stringa;
+    }
 
     void saluta(){
+        System.out.println("Ciao io sono" + " " + this.nome);
+    }
+
+    static void mostraNumPersone(){
+        System.out.println("il numero di persone create è :" );
+    }
+}
+
+   /*  void saluta(){
         System.out.println("ciao sono: " + nome);
     
     }
@@ -13,8 +35,8 @@ public class Persona {
     void cammina(){
         System.out.println("sto camminando...");
     }
-    
-}
+     */
+/* } */
 
 
 /* Introduzione programmazione ad oggetti */
