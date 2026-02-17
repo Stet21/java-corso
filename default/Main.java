@@ -6,8 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+    
 
-      Persona persona1 = new Persona("Stefano", "melchiorre Ricci");
+
+   /*    Persona persona1 = new Persona("Stefano", "melchiorre Ricci");
       Persona persona2 = new Persona("Sole", "melchiorre Ricci");
       Persona persona3 = new Persona("Domenico", "melchiorre Ricci");
 
@@ -15,17 +17,21 @@ public class Main {
       Studente studente2 = new Studente("Stefano", "verdi", "fisica", "3d", new int[]{8,7,6});
 
 
-      System.out.println(studente2.toString());
+      System.out.println(studente2);
 
       Insegnante insegnante1 = new Insegnante("Giordano", "rossi", "Architettura", new String[]{"3d", "4r", "6e"});
       Insegnante insegnante2 = new Insegnante("Gioro", "rossa", "Architettura", new String[]{"1d", "3r", "7e"});
 
-     System.out.println(insegnante1.toString());
+     System.out.println(insegnante1); */
 
 
 
 
        }
+
+       /* classi astratte, sono delle classi ristrette che non possono essre utilizzate per creare oggetti ma che noi chreiamo per essere ereditate da altre classi */
+
+
  /* EREDITARIETA : è quel meccaniscmo che permette ad una classe di derivare da un'altra classe e ereditarne metodi e attributi  */
    /*    Persona persona1 = new Persona("Stefano", "ricci", 34, 1.82);
       Persona persona2 = new Persona("Sole", "ricci", 0, 0.82);
@@ -49,7 +55,7 @@ public class Main {
       System.out.println(pizza2.formaggio); */
 
        
-      /* lo scoper delle varibili è globale quando viene definita  fuori dai metodi e solitamente sono variabili da 'riempire'
+      /* lo scope  delle varibili è globale quando viene definita  fuori dai metodi e solitamente sono variabili da 'riempire'
       mentre lo scope locale è quello delle variabili che sono state definite quindi non possono essere lette fuori dal metodo */
       /* grazie al costruttore creato dall'altra parte possiamo 'costruire una persona immettendo solo i parametri'
       e successivamente grazie al this. che in questo caso è persona1. possiamo andare a vere i vari attributi dell'oggetto creato */
