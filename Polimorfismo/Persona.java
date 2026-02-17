@@ -1,4 +1,4 @@
-package Pacchetto1;
+package Polimorfismo;
 
 public class Persona {
 
@@ -29,5 +29,9 @@ public class Persona {
     public void copy(Persona persona){
         this.setNome(persona.getNome());
         this.setCognome(persona.getCognome());
+    }
+
+    public void saluta(){
+        System.out.println("Ciao, sono " + this.getNome() + " " + this.getCognome());
     }
 }
